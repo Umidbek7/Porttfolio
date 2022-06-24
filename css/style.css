@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.about, .services{
+    font-family: 'Roboto', sans-serif;
+}
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+   
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: #FF8A56;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #FF8A56;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.about{
+    display: flex;
+    background: #fff;
+    height: 100vh;
+    color: #000;
+    min-height: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+.about .max-width{
+  width: 100%;
+  display: flex;
+}
+
+.about .about-content .text-1{
+    font-size: 72px;
+    color: #FF8A56;
+    padding-top: 5px;
+}
+.about .about-content .text-2{
+    font-size: 72px;
+    font-weight: 500;
+   
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #666;
+
+}
+
+.about .about-content button{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 2px;
+    justify-content: space-around;
+}
+
+.about .about-content a{
+    height: 18px;
+    width: 123px;
+    padding: 10px 5px;
+    color: #000;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color: #FF5E69;
+}
+.services h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 119px;
+    font-weight: 700px;
+    size: 54px;
+
+}
+.services img {
+    /* position: absolute; */
+    left: 0%;
+    right: 53.68%;
+    top: 0%;
+    bottom: 0.24%;
+}
